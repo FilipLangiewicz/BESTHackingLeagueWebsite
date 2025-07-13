@@ -333,6 +333,7 @@ header img.logo {
   color: #d1d1d1;
   margin-top: 1rem;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .card .main-image {
