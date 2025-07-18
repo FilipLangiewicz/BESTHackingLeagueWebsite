@@ -79,6 +79,23 @@ header img.logo {
   text-decoration: none;
 }
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.language-switcher img:hover {
+  transform: scale(1.1);
+}
+
+
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
